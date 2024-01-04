@@ -1,0 +1,23 @@
+name: Tech Collective - Layout
+description: Use this template for change requests and issues related to our own layout.
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+        - First: [search all issues](https://github.com/thetechcollective/minimal-mistakes/issues)
+          to avoid duplication.
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: What should change?
+      description: |
+        Please elaborate on what you want changed, be as specific as possible. Recall that
+        whoever needs to fix or implement this issue needs to be able to recreate the problem
+        or determine the definition of done ...or the issue will be ignored!
+      value: |
+        - What did your see?
+        - What would you rather see?        
+    validations:
+      required: true
