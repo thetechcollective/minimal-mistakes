@@ -10,9 +10,6 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  @if $masthead-background-color {
-    background-color: $masthead-background-color;
-  }
 
   &__inner-wrap {
     @include clearfix;
